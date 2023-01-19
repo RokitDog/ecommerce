@@ -1,5 +1,5 @@
 import styles from './styles.module.scss';
-import img1 from '../../../public/images/userHeader.jpg';
+import img1 from '../../../public/images/userheader.jpg';
 import Image from 'next/image';
 import {useSession} from 'next-auth/react';
 import Link from 'next/link';
