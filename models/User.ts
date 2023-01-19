@@ -79,6 +79,7 @@ const User = mongoose.models.User || mongoose.model<UserTypes>('User', userSchem
 export default User;
 
 export interface UserTypes {
+  id: string;
   _id: Types.ObjectId;
   name: string;
   email: string;
